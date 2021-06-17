@@ -1,7 +1,8 @@
 package com.github.faveroferreira.order.dto;
 
-import java.math.BigDecimal;
+import lombok.Data;
 
+@Data
 public class OrderItemDTO {
 
     private String itemName;
